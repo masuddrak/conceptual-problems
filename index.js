@@ -1,9 +1,4 @@
-function adition(number1,number2){
-    if(typeof(number1 && number2) !="number"){
-        return "please valid number";
-    }
-    const total = number1+number2;
-    return total
-}
-
-console.log(adition(11,41));
+const names='ryhan';
+const age=27;
+const message=`The name is = ${names} & your age=${age}`;
+console.log(message);
